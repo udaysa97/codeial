@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { use } = require('../router');
 
 const userSchema = new mongoose.Schema({
     email:{
